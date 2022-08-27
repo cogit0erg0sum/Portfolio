@@ -1,0 +1,13 @@
+prefix=/Users/harsri/Desktop/Portfolio/venv
+exec_prefix=/Users/harsri/Desktop/Portfolio/venv
+libdir=/Users/harsri/Desktop/Portfolio/venv/lib
+sharedlibdir=/Users/harsri/Desktop/Portfolio/venv/lib
+includedir=/Users/harsri/Desktop/Portfolio/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.12
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
